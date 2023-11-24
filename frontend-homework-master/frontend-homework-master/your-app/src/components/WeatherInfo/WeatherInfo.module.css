@@ -1,0 +1,34 @@
+.weatherInfo {
+  margin: 1rem 0;
+}
+
+.temperature {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.weatherIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.weatherDescription {
+  font-size: 1rem;
+}
+
+.weatherParameters {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.7rem 0;
+}
+
+.parameterTitle {
+  font-weight: bold;
+}
+.weatherIcons {
+  width: 0%;
+  height: 0%;
+}

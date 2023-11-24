@@ -1,0 +1,23 @@
+:root {
+  --app-background-color: #040d12;
+  --font-color: rgb(236, 229, 229);
+  --input-outline: 3px solid #be3144;
+  --tag-color: #be3144;
+  --border-radius: 5px;
+  --icon-hover-bg-color: rgb(46, 44, 44);
+  --button-hover-transform: translateY(-15%);
+  --button-hover-transition: transform 0.2s linear;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--app-background-color);
+  color: var(--font-color);
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

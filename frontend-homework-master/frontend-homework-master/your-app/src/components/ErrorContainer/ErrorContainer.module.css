@@ -1,0 +1,5 @@
+.errorMessage {
+  font-size: large;
+  font-weight: bold;
+  color: var(--tag-color);
+}

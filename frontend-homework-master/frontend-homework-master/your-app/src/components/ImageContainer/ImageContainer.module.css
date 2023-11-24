@@ -1,0 +1,46 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 40vh;
+}
+
+.responsiveImage {
+  height: 100%;
+  width: 100%;
+}
+
+.cityName {
+  position: absolute;
+  bottom: -2px;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem;
+  background-color: var(--app-background-color);
+  border-radius: 100% 0 0 0px;
+  padding: 40px 20px 5px 80px;
+  font-size: small;
+}
+
+.locationIcon {
+  font-size: 1.8rem;
+}
+
+.star {
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.star:hover {
+  transform: var(--button-hover-transform);
+  transition: var(--button-hover-transition);
+}
+
+@media screen and (min-width: 768px) {
+  .cityName {
+    font-size: medium;
+  }
+}

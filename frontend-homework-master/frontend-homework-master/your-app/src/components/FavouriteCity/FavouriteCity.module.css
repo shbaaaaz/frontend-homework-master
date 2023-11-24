@@ -1,0 +1,38 @@
+.cityContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.city {
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--tag-color);
+  padding: 0.4rem 1rem;
+  margin: 0.5rem 1rem 0.5rem 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.city:hover {
+  transform: var(--button-hover-transform);
+  transition: var(--button-hover-transition);
+}
+
+.deleteCity {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.deleteCity:hover {
+  color: var(--app-background-color);
+}
+
+.message {
+  font-size: small;
+  margin: 2px 0 10px 0;
+}
